@@ -44,10 +44,10 @@ function generatePassword(){
     passwordArray.push(chosenArray[randomNumber]);
 
   }
-  
-  passwordArray.join();
 
-  return passwordArray
+  let newPassword = passwordArray.join("");
+
+  return newPassword;
 
 }
 // Write password to the #password input
